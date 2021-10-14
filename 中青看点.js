@@ -44,7 +44,7 @@ function assure_back(tag) {
     while (num-- && !textContains(tag).findOne(3000)) {
         toastLog("返回：" + tag + ",back" + (8 - num) + "次")
         back();
-        sleep(3000);
+        sleep(1500);
     }
 }
 function qusousuo() {
