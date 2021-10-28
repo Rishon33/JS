@@ -1,12 +1,10 @@
 /*
 软件名称:得间小说
-完成时间：2021-10-27 @YaphetS0903
+TG：@rishon33
 脚本说明：得间小说。。。下载地址，appstore搜索下载
 暂时一天2毛，先刷着，后续更新其他任务，有活动提现，3块4块的样子，常规30提现
 本脚本以学习为主
 获取数据： 进入软件，点击福利，点击看视频赚1000金币，看一个视频获取数据
-TG通知群:https://t.me/tom_ww
-TG电报交流群: https://t.me/tom_210120
 boxjs地址 :  
 https://raw.githubusercontent.com/YaphetS0903/JStest/main/YaphteS0903.boxjs.json
 得间小说
@@ -214,7 +212,7 @@ function djxsbox(timeout = 0) {
         "X-Requested-With": "XMLHttpRequest"}
         dreferfer=djxsReferer.match(/usr=.+/)[0];
         let url = {
-            url: `https://dj.palmestore.com/zycl/gold/receive?${dreferfer}&type=boxTask&incrId=51`,
+            url: `https://dj.palmestore.com/zycl/gold/receive?${dreferfer}&type=boxTask&incrId=50`,
             headers: hd,
 
         }
